@@ -1,4 +1,5 @@
 ---
+import PostList from "../components/PostList/PostList.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 // Also, you can import multiple files with Astro.glob
 const posts = await Astro.glob('../pages/commands/*.md');
@@ -15,48 +16,6 @@ const content = {
 		<h2 id="pages">
 			Pages
 		</h2>
-		<ul class="postlist">
-			{posts.map(post => <li>
-				<a href={post.url}>
-					<section class="post-item">
-						<div class="cover" style={`background-image: url(${post.frontmatter.image}) `} />
-						<h4>
-							{post.frontmatter.title}
-						</h4>
-						<h5>
-							{post.frontmatter.description}
-						</h5>
-					</section>
-				</a>
-			</li>)}
-		</ul>
+		<PostList {posts} />
 	</article>
 </MainLayout>
-
-<style>
-	.postlist {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0px 5px;
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.postlist li {
-		/* margin-top: 0 */
-	}
-
-	.post-item {
-		background: var(--theme-divider);
-		border-radius: 0.25rem;
-		padding: 0.33em 0.5em;
-		/* margin-bottom: 0.25rem; */
-	}
-
-	.cover {
-		height: 160px;
-		background-size: cover;
-		background-position: center center;
-	}
-</style>
