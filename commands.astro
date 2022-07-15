@@ -3,14 +3,14 @@ import MainLayout from "../layouts/MainLayout.astro";
 // Also, you can import multiple files with Astro.glob
 const posts = await Astro.glob('../pages/commands/*.md');
 console.log(posts.map(p => ({ text: p.frontmatter.title, link: p.url })));
-const section = "commands"
 const content = {
 	title: "Commands",
+	section: "commands",
 	herotext: ["You can use the console to add, tweak, and replace elements of your game, including your mini-map, your HUD, and more. Knowledge is key in CSGO so you should check out our guide to find out everything you can customize ingame."]
 }
 ---
 
-<MainLayout {section} {content}>
+<MainLayout {content}>
 	<h1>
 		Commands
 	</h1>
