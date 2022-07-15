@@ -37,8 +37,6 @@ These are the launch options that we recommend.
 
 > ⚠️
 >
-> **If you are using mobile browser**: Be very careful here!
->
 > Some of this commands might make no difference in your game experience, some could give you a couple FPS and others could deduct you another couple of FPS.
 >
 > Generally, the less launch options you use, the better, but feel free to try them out.

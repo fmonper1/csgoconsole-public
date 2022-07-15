@@ -15,7 +15,7 @@ Unfortunately the developer console is disabled by default so we will have to ma
 
 `Settings > Game Settings > Enable Developer Console > Yes`
 
-![How to enable the CSGO developer console](./.assets/devconsole.jpg#thumbnail-lg)
+![How to enable the CSGO developer console](/content/commands/devconsole.jpg#thumbnail-lg)
 
 We can then assign a button to open the console by using `bind “anykey” "toggleconsole"` replacing `anykey` for your desired key.
 
@@ -23,7 +23,7 @@ We can then assign a button to open the console by using `bind “anykey” "tog
 
 We will have to create an empty file name `autoexec.cfg` and place that file inside `C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`.
 
-![How to create a CSGO autoexec](./.assets/autoexec1.png)
+![How to create a CSGO autoexec](/content/commands/autoexec1.png)
 
 After adding the file we must edit it and add the `host_writeconfig` command at the end of our file such that our settings from the autoexec get written to the game's config file. You can copy and paste the following code to the end of your `autoexec.cfg`.
 
