@@ -2,7 +2,7 @@
 title: Net_graph Commands
 section: commands
 description: The net graph is a part of the CSGO interface which displays game-related data such as our fps, ping, tickrate...
-image: assets/posts/netgraph.png
+image: /content/posts/netgraph.png
 comments: true
 layout: ../../layouts/MainLayout.astro
 setup: |

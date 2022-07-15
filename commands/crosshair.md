@@ -2,7 +2,7 @@
 title: Crosshair Commands
 section: commands
 description: The crosshair is and indicator on the middle of the screen that shows what we're aiming at...
-image: assets/crosshair.png
+image: /content/crosshair.png
 comments: true
 layout: ../../layouts/MainLayout.astro
 sidebarDepth: 0

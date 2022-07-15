@@ -3,7 +3,7 @@ title: CSGO Launch Options
 description: This guide explores the recommended launch options for CS:GO as well as identifying which options have been recommended not to use by the Devs.
 section: commands
 comments: true
-image: assets/posts/launch-options.png
+image: /content/posts/launch-options.png
 layout: ../../layouts/MainLayout.astro
 herotext:
   - This guide explores the recommended launch options for CS:GO as well as identifying which options have been recommended not to use by the Devs.

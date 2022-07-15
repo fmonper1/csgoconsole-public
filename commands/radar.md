@@ -2,7 +2,7 @@
 title: Radar Commands
 section: commands
 description: The radar is a part of the HUD that shows our position as well as that of our teammates in the map. It is important to configure the map such that...
-image: assets/radar.png
+image: /content/radar.png
 comments: true
 sidebarDepth: 0
 layout: ../../layouts/MainLayout.astro

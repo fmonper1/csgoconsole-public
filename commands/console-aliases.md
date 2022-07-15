@@ -2,7 +2,7 @@
 title: CSGO Console Aliases
 section: commands
 description: Console aliases are a way of creating shortcuts for commands that we tend to use a lot.
-image: assets/posts/rcon3.png
+image: /content/posts/rcon3.png
 comments: true
 layout: ../../layouts/MainLayout.astro
 herotext:

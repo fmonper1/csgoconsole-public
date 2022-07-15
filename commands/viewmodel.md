@@ -2,7 +2,7 @@
 title: Viewmodel Commands
 section: commands
 description: The commands in this page will explain how you can modify your camera's field of view (FOV) and view model...
-image: assets/viewmodel.png
+image: /content/viewmodel.png
 layout: ../../layouts/MainLayout.astro
 setup: |
   import CommandList from '../../features/commands/components/CommandList.astro'

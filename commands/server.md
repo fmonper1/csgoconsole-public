@@ -2,7 +2,7 @@
 title: Server Commands
 section: commands
 description: At some point it will be our responsibility setting up a server to play with friends or scrim...
-image: assets/posts/rcon3.png
+image: /content/posts/rcon3.png
 comments: true
 layout: ../../layouts/MainLayout.astro
 setup: |
