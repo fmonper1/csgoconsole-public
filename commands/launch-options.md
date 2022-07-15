@@ -1,20 +1,13 @@
 ---
 title: CSGO Launch Options
 description: This guide explores the recommended launch options for CS:GO as well as identifying which options have been recommended not to use by the Devs.
-type: commands
+section: commands
 comments: true
 image: assets/posts/launch-options.png
-date: 2020/05/05
-sidebarDepth: 0
+layout: ../../layouts/MainLayout.astro
+herotext:
+  - This guide explores the recommended launch options for CS:GO as well as identifying which options have been recommended not to use by the Devs.
 ---
-
-::: slot hero
-
-# CSGO Launch Options
-
-This guide explores the recommended launch options for CS:GO as well as identifying which options have been recommended not to use by the Devs.
-
-:::
 
 ## What are the launch options
 
@@ -42,12 +35,13 @@ These are the launch options that we recommend.
 
 ## Other launch options
 
-::: warning
-
-Some of this commands might make no difference in your game experience, some could give you a couple FPS and others could deduct you another couple of FPS.
-
-Generally, the less launch options you use, the better, but feel free to try them out.
-:::
+> ⚠️
+>
+> **If you are using mobile browser**: Be very careful here!
+>
+> Some of this commands might make no difference in your game experience, some could give you a couple FPS and others could deduct you another couple of FPS.
+>
+> Generally, the less launch options you use, the better, but feel free to try them out.
 
 `-console` enables the console and makes it visible when you open the game. Some people like to have it to make sure their autoexec has loaded.
 
