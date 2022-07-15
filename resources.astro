@@ -2,12 +2,12 @@
 import PostList from "../components/PostList/PostList.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 // Also, you can import multiple files with Astro.glob
-const posts = await Astro.glob('../pages/commands/*.md');
+const posts = await Astro.glob('../pages/resources/*.md');
 console.log(posts.map(p => ({ text: p.frontmatter.title, link: p.url })));
 const content = {
-	title: "Commands",
-	section: "commands",
-	herotext: ["You can use the console to add, tweak, and replace elements of your game, including your mini-map, your HUD, and more. Knowledge is key in CSGO so you should check out our guide to find out everything you can customize ingame."]
+	title: "Resources, Guides & Configuration",
+	section: "guides",
+	herotext: ["We have compiled a list of mods, browser plugins and useful resources to enhance your experience when your in or out of the game."]
 }
 ---
 
