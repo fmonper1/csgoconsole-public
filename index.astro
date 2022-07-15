@@ -1,13 +1,42 @@
 ---
 import CSGOConsoleLogo from "../components/Header/CSGOConsoleLogo.astro";
-import MainLayout from "../layouts/MainLayout.astro";
+import HeroCard from "../components/HeroCard/HeroCard.astro";
+import LandingLayout from "../layouts/LandingLayout.astro";
 ---
 
-<MainLayout>
-	<CSGOConsoleLogo size={128} />
-	<h2>test</h2>
-</MainLayout>
+<LandingLayout>
+	<HeroCard>
+		<div class="banner">
+			<div class="icon">
+				<CSGOConsoleLogo size={128} />
+			</div>
+			<div class="content">
+				<h2>Welcome to CSGOConsole</h2>
+				<p>The bible of Counter Strike: Global Offensive commands, settings and mods.</p>
+			</div>
+		</div>
+	</HeroCard>
+</LandingLayout>
 
-<style lang="pcss">
+<style>
+	.banner {
+		display: flex;
+		font-size: 120%;
+	}
 
+	.banner .icon {
+		flex-shrink: 0;
+		width: 128px;
+		margin-right: 1rem;
+	}
+
+	.banner .content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.banner h3 {
+		margin: 0;
+	}
 </style>
