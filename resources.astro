@@ -3,7 +3,6 @@ import PostList from "../components/PostList/PostList.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 // Also, you can import multiple files with Astro.glob
 const posts = await Astro.glob('../pages/resources/*.md');
-console.log(posts.map(p => ({ text: p.frontmatter.title, link: p.url })));
 const content = {
 	title: "Resources, Guides & Configuration",
 	section: "guides",

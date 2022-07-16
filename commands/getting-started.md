@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+description: To make the most out of CS:GO we will have to enable the developer console in game. We also recommend keeping your settings in a auto executable file so that you can take it with you easily to tournaments
 comments: true
 layout: ../../layouts/MainLayout.astro
 section: commands
