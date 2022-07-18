@@ -2,6 +2,11 @@
 import CSGOConsoleLogo from "../components/Header/CSGOConsoleLogo.astro";
 import HeroCard from "../components/HeroCard/HeroCard.astro";
 import LandingLayout from "../layouts/LandingLayout.astro";
+
+import PostList from "../components/PostList/PostList.astro";
+const commands = await Astro.glob('../pages/commands/*.md');
+const mods = await Astro.glob('../pages/mods/*.md');
+const resources = await Astro.glob('../pages/resources/*.md');
 ---
 
 <LandingLayout>
@@ -16,6 +21,18 @@ import LandingLayout from "../layouts/LandingLayout.astro";
 			</div>
 		</div>
 	</HeroCard>
+	<h2>CS:GO Commands</h2>
+	<p>You can use the console to add, tweak, and replace elements of your game, including your mini-map, your HUD, and
+		more. Knowledge is key in CSGO</p>
+	<PostList posts={commands} simple={true} />
+	<h2>CS:GO Mods</h2>
+	<p>We have compiled a list of game mods and browser plugins that are either useful or a must-have when you play
+		CSGO. </p>
+	<PostList posts={mods} simple={true} />
+	<h2>CS:GO Guides</h2>
+	<p>We have compiled a list of mods, browser plugins , guides and useful resources to enhance your experience when
+		your in or out of the game.</p>
+	<PostList posts={resources} simple={true} />
 </LandingLayout>
 
 <style>
